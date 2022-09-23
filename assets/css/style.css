@@ -1,0 +1,30 @@
+@import url('card.css');
+@import url('responsividade.css');
+
+:root {
+    --azul: hsl(185, 75%, 39%);
+    --preto_azulado: hsl(229, 23%, 23%);
+    --cinza: hsl(227, 10%, 46%);
+    --cinza_claro: hsl(0, 0%, 59%);
+    --cinza_borda: hsla(0, 0%, 59%, 0.5);
+    --branco: rgb(255, 255, 255);
+
+    --fonte: 'Kumbh Sans', sans-serif;
+}
+
+body {
+    font-family: var(--fonte);
+    background: url('../img/bg-pattern-top.svg') no-repeat, 
+                url('../img/bg-pattern-bottom.svg') no-repeat,
+                var(--azul);
+    background-position: -10vw -55vh, 49vw 50vh;
+    background-size: 1100px;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
